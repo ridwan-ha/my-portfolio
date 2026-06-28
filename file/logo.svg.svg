@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="90" viewBox="0 0 420 90" role="img">
+  <title>Ridwan Hassan Abdulazeez logo</title>
+  <desc>Dark themed teal logo matching the portfolio header</desc>
+
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&amp;family=Rajdhani:wght@300;500&amp;display=swap');
+      @keyframes pulse-ring { 0%,100%{opacity:.2} 50%{opacity:.5} }
+      @keyframes glow-text  { 0%,100%{opacity:1}  50%{opacity:.8} }
+      .ring-anim { animation: pulse-ring 2.5s ease-in-out infinite; }
+      .glow-anim { animation: glow-text  3s   ease-in-out infinite; }
+    </style>
+    <linearGradient id="teal-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#00ffcc"/>
+      <stop offset="100%" stop-color="#00b894"/>
+    </linearGradient>
+    <linearGradient id="teal-text" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#00ffcc"/>
+      <stop offset="100%" stop-color="#00d4a0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- monogram rings -->
+  <circle class="ring-anim" cx="44" cy="45" r="38" fill="none" stroke="#00ffcc" stroke-width="1.5" opacity=".3"/>
+  <circle class="ring-anim" cx="44" cy="45" r="30" fill="none" stroke="#00ffcc" stroke-width="0.8" stroke-dasharray="5 4" opacity=".2"/>
+
+  <!-- monogram background -->
+  <circle cx="44" cy="45" r="32" fill="#0d2b26"/>
+  <circle cx="44" cy="45" r="32" fill="none" stroke="#00ffcc" stroke-width="1.5"/>
+
+  <!-- HRA monogram -->
+  <text class="glow-anim" x="44" y="53"
+    text-anchor="middle"
+    font-family="'Orbitron', monospace"
+    font-size="20"
+    font-weight="700"
+    fill="#00ffcc">HRA</text>
+
+  <!-- vertical divider -->
+  <rect x="88" y="18" width="1.5" height="54" rx="1" fill="#00ffcc" opacity=".35"/>
+
+  <!-- main name -->
+  <text x="100" y="38"
+    font-family="'Orbitron', monospace"
+    font-size="19"
+    font-weight="700"
+    fill="url(#teal-text)"
+    letter-spacing="2">RIDWAN HASSAN</text>
+
+  <!-- surname -->
+  <text x="100" y="62"
+    font-family="'Rajdhani', sans-serif"
+    font-size="18"
+    font-weight="300"
+    fill="#00ffcc"
+    letter-spacing="5"
+    opacity=".85">ABDULAZEEZ</text>
+
+  <!-- underline -->
+  <rect x="100" y="70" width="300" height="1.5" rx="1" fill="url(#teal-grad)" opacity=".6"/>
+
+  <!-- tagline -->
+  <text x="100" y="84"
+    font-family="'Rajdhani', sans-serif"
+    font-size="11"
+    font-weight="300"
+    fill="#00ffcc"
+    letter-spacing="3"
+    opacity=".5">NETWORKING · CYBERSECURITY · WEB DEV</text>
+
+</svg>
