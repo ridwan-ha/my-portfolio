@@ -523,5 +523,6 @@ form div:last-child {
   }
    footer{
     font-size: 0.9rem;
+     justify-content: space-around;
   }
 }
